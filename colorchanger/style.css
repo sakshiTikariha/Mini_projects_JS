@@ -1,0 +1,89 @@
+*{
+  margin:0;
+}
+.span{
+    display:block;
+
+}
+.canvas{
+     margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+   display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 boxes per row */
+  gap: 5px;
+  
+  
+}
+.set{
+    text-align: center;
+    justify-content: center;
+
+}
+.button{
+width:100px;
+display:inline-block;
+height:100px;
+border:2px black solid;
+
+}
+#grey{
+    background-color: grey;
+
+}
+#white{
+    background-color: white;
+    
+}
+#blue{
+    background-color: blue;
+    
+}
+#yellow{
+    background-color: yellow;
+    
+}
+#pink{
+    background-color: pink;
+
+}
+#brown{
+    background-color: brown;
+    
+}
+#purple{
+    background-color: purple;
+    
+}
+#violetblue{
+    background-color: blueviolet;
+    
+}
+#silver{
+    background-color: silver;
+
+}
+#red{
+    background-color: red;
+    
+}
+#black{
+    background-color: black;
+    
+}
+#green{
+    background-color: green;
+    
+}
+#babypink{
+    background-color:rgb(209, 165, 173);
+
+}
+#marron{
+    background-color: rgb(168, 13, 13);
+    
+}
+#lightgreen{
+    background-color: lightgreen;
+    
+}
