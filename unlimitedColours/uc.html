@@ -22,13 +22,16 @@
     }
     let intervalidId;
     const startChangingColour=function(){
+        if(!intervalidId){
         intervalidId =setInterval(changeColor,1000);
+        }
         function changeColor(){
             document.body.style.backgroundColor=randomColor();
         }
     }
      const stopChangingColour=function(){
         clearInterval(intervalidId);
+        intervalidId=null//to prevent override
      }
 
     document.querySelector('#start').addEventListener('click',startChangingColour);
