@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <td>${dateValue}</td>
             <td><button class="delete-btn bg-red-500 text-white px-2 py-1 rounded-md">Delete</button></td>
             <td>
-                <select class="status-dropdown border border-black px-2 py-1 rounded-md">
+                <select class="status-dropdown border border-black px-2 py-1 text-black rounded-md">
                     <option value="pending">Pending</option>
                     <option value="in-progress">In Progress</option>
                     <option value="completed">Completed</option>
